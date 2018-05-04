@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kaitlynchandler.quizit2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LogIn">
+            <intent-filter>
+                <action android:name="com.example.kaitlynchandler.quizit2.LogIn" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUp">
+            <intent-filter>
+                <action android:name="com.example.kaitlynchandler.quizit2.SignUp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".student" >
+            <intent-filter>
+                <action android:name="com.example.kaitlynchandler.quizit2.student" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Take_a_Quiz">
+            <intent-filter>
+                <action android:name="com.example.kaitlynchandler.quizit2.Take_a_Quiz" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".createAQuiz" >
+            <intent-filter>
+                <action android:name="com.example.kaitlynchandler.quizit2.createAQuiz" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Quiz_Selection">
+            <intent-filter>
+                <action android:name="com.example.kaitlynchandler.quizit2.Quiz_Selection" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LogIn2" >
+            <intent-filter>
+                <action android:name="com.example.kaitlynchandler.quizit2.LogIn2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUp2">
+            <intent-filter>
+                <action android:name="com.example.kaitlynchandler.quizit2.SignUp2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".quiz"></activity>
+    </application>
+
+</manifest>

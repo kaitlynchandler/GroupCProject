@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#186F69"
+    android:orientation="vertical"
+    tools:context=".Quiz_Selection">
+    <TextView
+        android:id="@+id/title"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textSize="80sp"
+        android:textColor="#EAEAEA"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/quizCode"
+        android:hint="@string/quiz_code"
+        android:textAlignment="center"
+        android:textColorHint="#EAEAEA"
+        android:textSize="25sp"
+        android:textColor="#EAEAEA"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/ediittext"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/FName"
+        android:hint="@string/first_name"
+        android:textAlignment="center"
+        android:textColorHint="#EAEAEA"
+        android:textSize="25sp"
+        android:textColor="#EAEAEA"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/ediittext"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/LName"
+        android:hint="@string/last_name"
+        android:textAlignment="center"
+        android:textColorHint="#EAEAEA"
+        android:textSize="25sp"
+        android:textColor="#EAEAEA"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/ediittext"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/LogIn"
+        android:text="@string/start"
+        android:textSize="25sp"
+        android:textColor="#EAEAEA"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button2" />
+
+</LinearLayout>

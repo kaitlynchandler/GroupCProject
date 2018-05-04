@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">QuizIt2</string>
+    <string name="student">Student</string>
+    <string name="teacher">Teacher</string>
+    <string name="i_am_a">I am a:</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="account_already">I have an Account</string>
+    <string name="take_a_quiz">Take a Quiz</string>
+    <string name="view_grades">View Grades</string>
+    <string name="create">Create</string>
+    <string name="analyze">Analyze</string>
+    <string name="edit">Edit Existing Quiz</string>
+    <string name="quiz_code">Quiz Code</string>
+    <string name="start">Start</string>
+    <string name="create_a_quiz">Create Quiz</string>
+
+
+</resources>

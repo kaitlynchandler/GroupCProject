@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#186F69"
+    tools:context=".SignUp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="#EAEAEA"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/subTittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_an_account"
+        android:textColor="#EAEAEA"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:id="@+id/FName"
+        android:hint="@string/first_name"
+        android:textAlignment="center"
+        android:textColorHint="#EAEAEA"
+        android:textSize="25sp"
+        android:textColor="#EAEAEA"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/subTittle"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ediittext" />
+
+    <EditText
+        android:id="@+id/LName"
+        android:hint="@string/last_name"
+        android:textAlignment="center"
+        android:textColorHint="#EAEAEA"
+        android:textSize="25sp"
+        android:textColor="#EAEAEA"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:background="@drawable/ediittext"
+        android:layout_alignBottom="@+id/FName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LName"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/email"
+            android:hint="@string/email"
+            android:textAlignment="center"
+            android:textColorHint="#EAEAEA"
+            android:textSize="25sp"
+            android:textColor="#EAEAEA"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/ediittext"/>
+        <EditText
+            android:id="@+id/password"
+            android:hint="@string/password"
+            android:textAlignment="center"
+            android:textColorHint="#EAEAEA"
+            android:textSize="25sp"
+            android:textColor="#EAEAEA"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/ediittext"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/signUp"
+            android:text="@string/sign_up"
+            android:textSize="25sp"
+            android:textColor="#EAEAEA"
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/account_already"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="italic"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+</RelativeLayout>
